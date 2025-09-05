@@ -95,4 +95,4 @@ def plot_result(regrets, logscale=False, lb=None,q=10, mode = 'regret', cumulati
     plt.ylabel(header + mode.capitalize())
     plt.legend()
     #reg_plot.show()
-    return reg_plot #notebook version
+    # return reg_plot #notebook version
